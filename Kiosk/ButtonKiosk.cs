@@ -439,6 +439,7 @@ namespace Kiosk
                 var messageReturn = CustomMessageBox.Show(btt.messagetext, "", "SIM", "NÃO").ToString();
 
                 //MessageBox.Show(CustomMessageBox.Show(btt.messagetext, "", "SIM", "NÃO").ToString());
+                //teste
                 if (messageReturn == "No") {
                     return;
                 }
